@@ -4,7 +4,7 @@
 class sms_man_com {
 	
 	//private $api_key;
-	private $link = "https://api.sms-man.com/stubs/handler_api.php";
+	private $link = "https://bot-6-v3oh.onrender.com";
 	public function __construct ($api_key) {
 		//$this->api_key = $api_key;
 		$this->link .= "?api_key=" . $api_key;

